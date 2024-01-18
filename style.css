@@ -34,13 +34,28 @@ form select,button,input{
     border:none;
     outline:none;
     border-radius: 0.4rem;
-    background-color: #bdbcbb4c;
+    background-color: #bdbcbb00;
     color:white;
+}
+form select:hover{
+    /* width:100%; */
+    border:none;
+    outline:none;
+    border-radius: 0.4rem;
+    background-color: #bdbcbb00;
+    color:rgb(0, 0, 0);
 }
 
 
 form input{
-    border:3px solid rgb(44, 44, 44);
+    border:2px solid rgb(140, 140, 140);
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+form input:hover{
+    border:2px solid rgb(255, 255, 255);
     font-size: 1rem;
     height: 2.5rem;
     padding-left: 0.5rem;
@@ -69,6 +84,17 @@ form input{
     align-items: center;
     border-radius: 0.5rem;
     border:2px solid rgb(140, 140, 140);
+    
+}
+
+.select-container:onhover{
+    display: flex;
+    width: 8rem;
+    /* background-color: aqua; */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
+    border:2px solid rgb(255, 255, 255);
     
 }
 
